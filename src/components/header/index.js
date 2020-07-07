@@ -25,16 +25,15 @@ const Header = (props) => (
        <Link className="option" to="/signin">SIGN IN</Link>
         }
         <CartIcon />
-        <span>John</span>
+    <span>{props.currentUser.displayName}</span>
     </div>
     </div>
     <hr />
     </div>
 );
 
-const mapStateToProps = ({user: { currentUser }, cart: { hidden }}) => ({
-    currentUser,
-    hidden
+const mapStateToProps = ({user: { currentUser }}) => ({
+    currentUser
 
 })
 export default connect(mapStateToProps)(Header);

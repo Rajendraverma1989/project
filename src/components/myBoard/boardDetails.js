@@ -3,11 +3,7 @@ import "./styles.scss";
 import CartIcon from '../cart-icon'; 
 
 class BoardDetails extends React.Component {
-
-
     render() {
-        const color ="red";
-        console.log('tittle 11111::', this.props.boarderColor)
 return(
        <div className='gradeInfo'>
        <div className='boardHeader'>
