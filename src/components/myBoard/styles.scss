@@ -1,0 +1,60 @@
+.boardlayout {
+  width: 30%;
+  height: 600px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  margin: 30px;
+
+  .boardHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 10px;
+
+    .boardtitle {
+      margin: 10px 20px 10px 10px;
+      font-weight: bold;
+    }
+  }
+  .gradeInfo {
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 3px;
+    border-top: 5px solid red;
+    
+       .expandicon{
+       margin: 10px;
+       font-weight: bold;
+       transform: rotate(90deg);
+    }
+    .facultiInfo {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 34px;
+      margin: 0px 15px;
+    }
+
+    .users{
+      display: flex;
+    }
+    .rightInfo{
+      display: flex;
+      align-items: center;
+
+      .progress {
+        padding: 4px;
+    background-color: mediumpurple;
+    text-align: center;
+    border-radius: 4px;
+      }
+
+      .showDate {
+        background-color: #e7e7e7;
+        margin-right: 10px;
+        border-radius: 4px;
+        padding: 4px;
+      }
+    }
+  }
+}
+
+
